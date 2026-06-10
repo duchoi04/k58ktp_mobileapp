@@ -1,11 +1,11 @@
-GIAI ĐOẠN 1: THIẾT KẾ GIAO DIỆN (DESIGNER)
+BÀI 1: Viết phần mềm trên công cụ Mit App inventor
 
-Khởi tạo: Truy cập trang web ai2.appinventor.mit.edu (đăng nhập bằng tài khoản Google), bấm Start new project và đặt tên dự án
+1. Khởi tạo: Truy cập trang web ai2.appinventor.mit.edu (đăng nhập bằng tài khoản Google), bấm Start new project và đặt tên dự án
 
 
 <img width="1920" height="1080" alt="Screenshot 2026-06-10 155243" src="https://github.com/user-attachments/assets/d6ced0df-06ba-4753-81ad-efb04da6f521" />
 
-Kéo thả linh kiện: Tại cột User Interface (Bên trái), tiến hành kéo thả các thành phần vào màn hình điện thoại ở giữa (Viewer):
+2. Kéo thả linh kiện: Tại cột User Interface (Bên trái), tiến hành kéo thả các thành phần vào màn hình điện thoại ở giữa (Viewer):
 
 
 Label: Để hiển thị văn bản (Họ tên: Hoàng Đức Hội, MSSV...).
@@ -23,32 +23,32 @@ TextBox / Image: Để nhập dữ liệu hoặc hiển thị hình ảnh (nếu
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a8d9a64-d929-4ff1-9d5e-5813216d7b87" />
 
-Tạo Screen1 kéo vào màn hình điện thoại 2 label, 2 Button và đổi tên theo tên của mình:
+3. Tạo Screen1 kéo vào màn hình điện thoại 2 label, 2 Button và đổi tên theo tên của mình:
 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/52f626f5-a784-46ae-8402-ea62318efe76" />
 
 
-Tạo Screen2 kéo vào 2 Label, 2 TextBox, 1 Button và đổi tên theo tên của mình:
+4. Tạo Screen2 kéo vào 2 Label, 2 TextBox, 1 Button và đổi tên theo tên của mình:
 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01e8dcda-efd7-4b0c-8ace-c04145225646" />
 
 
-Tạo Screen3 kéo vào 1 WebViewer và dán link trang web vào phần HomeURL ở bên phải màn hình khi bấm vào WebViewer:
+5. Tạo Screen3 kéo vào 1 WebViewer và dán link trang web vào phần HomeURL ở bên phải màn hình khi bấm vào WebViewer:
 
 
 <img width="1920" height="1080" alt="Screenshot 2026-06-10 161343" src="https://github.com/user-attachments/assets/fac4e7cb-51a1-4b6b-92fc-f5879f554314" />
 
 
-Sau đó bấm chuyển sang Blocks cấu hình 3 Screen:
+6. Sau đó bấm chuyển sang Blocks cấu hình 3 Screen:
 
 
 <img width="440" height="450" alt="image" src="https://github.com/user-attachments/assets/e3ef5bdd-7153-4001-aef2-d26abd4bfd88" />
 
 
 
-Bấm vào btnToan rồi kéo when btnToan .Click ở dòng đầu tiên ra màn hình
+7.  Bấm vào btnToan rồi kéo when btnToan .Click ở dòng đầu tiên ra màn hình
 
 
 
@@ -56,7 +56,7 @@ Bấm vào btnToan rồi kéo when btnToan .Click ở dòng đầu tiên ra màn
 
 
 
-Tiếp theo bấm Control màu vàng ở phần Built-in kéo another screen ra màn hình và nối vào btnToan.click:
+8.  Tiếp theo bấm Control màu vàng ở phần Built-in kéo another screen ra màn hình và nối vào btnToan.click:
 
 
 
@@ -64,28 +64,27 @@ Tiếp theo bấm Control màu vàng ở phần Built-in kéo another screen ra 
 
 
 
-Rồi bấm vào ô Text màu hồng kéo phần có "" ra màn hình và nối vào như hình và đổi tên thành Screen2:
+9.  Rồi bấm vào ô Text màu hồng kéo phần có "" ra màn hình và nối vào như hình và đổi tên thành Screen2:
 
 
 <img width="1507" height="998" alt="image" src="https://github.com/user-attachments/assets/1bb6dc49-bd69-42e0-bdad-2005d6a3631d" />
 
 
-btnWeb chỉ cần coppy btnToan past ra và đổi tên từ Screen2 thành Screen3 là được:
+10. btnWeb chỉ cần coppy btnToan past ra và đổi tên từ Screen2 thành Screen3 là được:
 
 
 <img width="745" height="444" alt="image" src="https://github.com/user-attachments/assets/3bdac746-8bcb-4ed7-a34b-d2fdd4d8b590" />
 
 
 
-Bấm vào Screens chuyển sang Screen2 và tiếp tục cấu hình:
+11. Bấm vào Screens chuyển sang Screen2 và tiếp tục cấu hình:
 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f485b01b-2cab-41cc-a300-53b7679d73fd" />
 
 
 
-When btnCong.click kéo ra như bước trên
-
+12. When btnCong.click kéo ra như bước trên
 
 
 Bấm vào set lblKetQua. Text to kéo ra màn hình nối vào When btnCong.click:
@@ -96,23 +95,23 @@ Bấm vào set lblKetQua. Text to kéo ra màn hình nối vào When btnCong.cli
 
 
 
-Sau đó bấm vào các Math màu xanh dương chọn các phép toán tùy ý và nối vào như hình:
+13. Sau đó bấm vào các Math màu xanh dương chọn các phép toán tùy ý và nối vào như hình:
 
 
 <img width="1746" height="991" alt="image" src="https://github.com/user-attachments/assets/78bf95a5-454f-49e0-aab5-8b81d9a6f8f1" />
 
 
 
-Rồi bấm vào phần txtSo1 và txtSo2 kéo txtSo1.Text và txtSo2.Text ra màn hình đặt vào trong Math màu xanh dương:
+14. Rồi bấm vào phần txtSo1 và txtSo2 kéo txtSo1.Text và txtSo2.Text ra màn hình đặt vào trong Math màu xanh dương:
 
 
 <img width="1920" height="1067" alt="image" src="https://github.com/user-attachments/assets/de62c860-4a2e-40c3-8640-5b92cc797070" />
 
-Chuyển sang Screen3 và cấu hình như trong hình:
+15. Chuyển sang Screen3 và cấu hình như trong hình:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/439306fa-f79b-409c-9850-b2f3e0533973" />
 
-Kết nối lên điện thoại bằng cách tải app MIT APP Inventor trên CH Play hoặc App Store về sau đó ở trang Web bấm vào phần Connect trên đầu trang và bấm vào AI Companion sẽ hiện ra code và mã QR để đăng nhập:
+16. Kết nối lên điện thoại bằng cách tải app MIT APP Inventor trên CH Play hoặc App Store về sau đó ở trang Web bấm vào phần Connect trên đầu trang và bấm vào AI Companion sẽ hiện ra code và mã QR để đăng nhập:
 
 <img width="1237" height="679" alt="image" src="https://github.com/user-attachments/assets/c9fa6006-a2c2-4bc3-aff9-3c41dbd1f817" />
 
@@ -120,13 +119,83 @@ Kết nối lên điện thoại bằng cách tải app MIT APP Inventor trên C
 <img width="1156" height="951" alt="image" src="https://github.com/user-attachments/assets/8794ebdc-103b-4fce-9c92-d77632c17ac5" />
 
 
-KẾT QỦA:
+PHẦN II: KẾT QỦA:
 
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/1887da61-8c28-436e-9b70-7d7f5491673e" />
 
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/08891182-1da7-46d2-947f-cf6d65a31870" />
 
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/82ff11a9-bc4d-46e5-8ef7-531382185264" />
+
+
+BÀI 2: Viết app sử dụng Android Studio
+
+BƯỚC 1: KHỞI TẠO & CẤU HÌNH HỆ THỐNG 
+
+Thao tác: Mở Android Studio ➔ Chọn File ➔ New ➔ New Project...
+
+
+Chọn cấu trúc: Tại cửa sổ chọn mẫu, bắt buộc chọn Empty Views Activity
+
+
+Thiết lập thông số: * Đặt tên ứng dụng (Name): App2_Final
+
+
+Ngôn ngữ (Language): Java
+
+
+Minimum SDK: API 24 (Android 7.0) để đảm bảo tối ưu hiệu năng.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b7140a40-4b95-40ef-9470-275be5bce1e0" />
+
+
+Sau khi nhấn Finish, đợi thanh tiến trình Gradle nạp xong toàn bộ cây thư mục cấu trúc.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e3fbed64-a2fa-43d2-b7bf-0b53e5fcbefc" />
+
+
+BƯỚC 2: CODE CHI TIẾT 3 MÀN HÌNH
+
+Thao tác: Mở file app ➔ manifests ➔ AndroidManifest.xml và dán code mới vào:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0654ff3-0032-438c-a916-ecc42135584a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
