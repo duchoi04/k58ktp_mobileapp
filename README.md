@@ -112,7 +112,50 @@ Chuyển sang Screen3 và cấu hình như trong hình:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/439306fa-f79b-409c-9850-b2f3e0533973" />
 
+Kết nối lên điện thoại bằng cách tải app MIT APP Inventor trên CH Play hoặc App Store về sau đó ở trang Web bấm vào phần Connect trên đầu trang và bấm vào AI Companion sẽ hiện ra code và mã QR để đăng nhập:
+
+<img width="1237" height="679" alt="image" src="https://github.com/user-attachments/assets/c9fa6006-a2c2-4bc3-aff9-3c41dbd1f817" />
+
+
+<img width="1156" height="951" alt="image" src="https://github.com/user-attachments/assets/8794ebdc-103b-4fce-9c92-d77632c17ac5" />
+
+
 KẾT QỦA:
+
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/1887da61-8c28-436e-9b70-7d7f5491673e" />
+
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/08891182-1da7-46d2-947f-cf6d65a31870" />
+
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/82ff11a9-bc4d-46e5-8ef7-531382185264" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
