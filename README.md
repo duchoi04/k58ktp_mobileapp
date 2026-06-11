@@ -132,7 +132,38 @@ Bấm vào set lblKetQua. Text to kéo ra màn hình nối vào When btnCong.cli
 
 BÀI 2: Viết app sử dụng Android Studio
 
-ỨNG DỤNG SỔ TAY OFFLINE (SỬ DỤNG ASSETS)
+Đề xuất triển khai App 1: "Sổ tay Chính sách Tài xế Xanh SM"
+
+Đây là một bài toán thực tế kết hợp giải quyết vấn đề bằng Assets:
+
+
+Vấn đề đặt ra: Các tài xế xe điện Xanh SM cần tra cứu nhanh các mốc tỷ lệ hoàn thành chuyến, chu kỳ xét hạng và chính sách
+
+thưởng phạt. Tuy nhiên, khi di chuyển ở các vùng sóng 4G yếu hoặc ngoại ô, việc mở app trực tuyến thường bị xoay vòng (loading)
+
+mất thời gian.
+
+Cách giải quyết: Đưa toàn bộ nội dung chính sách định dạng tĩnh vào app thông qua file Assets để tra cứu Offline 100%.
+
+
+Đặc thù dữ liệu: Dữ liệu dạng văn bản phân cấp, lưu trong file policy.json đặt tại thư mục Assets.
+
+
+Thuật toán xử lý:
+
+
+Mở luồng InputStream đọc file JSON từ Assets.
+
+
+Dùng thuật toán đọc luồng byte (BufferedReader) ghép thành chuỗi String hoàn chỉnh.
+
+
+Dùng thư viện org.json.JSONObject để bóc tách chuỗi String ra thành các mốc dữ liệu thưởng tương ứng.
+
+
+Đối tượng hiển thị: Sử dụng thành phần RecyclerView kết hợp CardView để liệt kê các mục chính sách một cách đẹp mắt, chuyên
+
+nghiệp.
 
 BƯỚC 1: TẠO DỰ ÁN MỚI 
 
@@ -286,77 +317,6 @@ BƯỚC 6: CHẠY THỬ
 <img width="1920" height="1080" alt="Screenshot 2026-06-11 120345" src="https://github.com/user-attachments/assets/b97ee5ee-d61d-4ddc-9018-cfec6010c320" />
 
 Sau khi chạy đã thấy app hiện ra 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
