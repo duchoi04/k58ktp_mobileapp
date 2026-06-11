@@ -154,11 +154,204 @@ Sau khi nhấn Finish, đợi thanh tiến trình Gradle nạp xong toàn bộ c
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e3fbed64-a2fa-43d2-b7bf-0b53e5fcbefc" />
 
 
-BƯỚC 2: CODE CHI TIẾT 3 MÀN HÌNH
+BƯỚC 2: THIẾT KẾ MÀN HÌNH 1 - ABOUT ME
 
-Thao tác: Mở file app ➔ manifests ➔ AndroidManifest.xml và dán code mới vào:
+1. File Giao diện (activity_main.xml):
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0654ff3-0032-438c-a916-ecc42135584a" />
+Mở file app -> res -> layout -> activity_main.xml, chuyển sang chế độ gõ Code (biểu tượng các đường kẻ ngang ở góc trên bên phải), xóa hết code cũ và dán code vào:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b85a7982-d315-4aea-a475-a35e1e9638ea" />
+
+2. File Xử lý Logic (MainActivity.java):
+
+Mở file app -> java -> com.example.app2_final -> MainActivity, xóa hết đi và dán đoạn code điều hướng chuyển màn hình này
+vào:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea4b1a34-f079-4285-a8f2-b7885aecc595" />
+
+BƯỚC 3: TẠO VÀ CÀI ĐẶT MÀN HÌNH 2 - GIẢI TOÁN & GỌI API
+
+Bây giờ bạn hãy tự tạo thủ công các file cho màn hình số 2 để không lo phần mềm bị treo bảng cài đặt tự động nữa nhé:
+
+
+1. Tạo file Java (MathActivity.java):
+
+
+Click chuột phải vào thư mục com.example.app2_final -> chọn New -> Java Class.
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-11 105204" src="https://github.com/user-attachments/assets/e9a74e41-400a-40fa-af31-b1239463175b" />
+
+
+Gõ tên là: MathActivity rồi nhấn Enter.
+
+
+Mở file vừa tạo ra, xóa hết chữ bên trong và dán đoạn code xử lý giải toán + đóng gói JSON + gửi API bằng luồng chạy ngầm này
+
+vào:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37b7b5ac-5003-4a50-b5bb-c2e094a56d23" />
+
+
+
+2. Tạo file Giao diện (activity_math.xml):
+   
+
+Click chuột phải vào thư mục res -> layout -> chọn New -> Layout Resource File.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d20cd7f1-180c-4496-a695-1d47c1e314f4" />
+
+
+
+Ô File name gõ chữ: activity_math rồi ấn OK.
+
+
+Chuyển sang chế độ gõ Code, xóa hết đi và dán đoạn mã vào:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09bda39a-d02e-4c33-a354-e401623eea62" />
+
+
+
+BƯỚC 4: TẠO VÀ CÀI ĐẶT MÀN HÌNH 3 - WEBVIEW
+
+
+1. Tạo file Java (WebActivity.java):
+
+
+Click chuột phải vào thư mục com.example.app2_final -> chọn New -> Java Class.
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24d8689c-2c7c-4c01-aabf-c7fc0cec4e61" />
+
+
+Gõ tên là: WebActivity rồi nhấn Enter.
+
+
+Mở file ra, xóa hết chữ bên trong và dán đoạn code vào:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f8f6387a-d4da-42c6-91ad-6d6953cf8d4f" />
+
+2. Tạo file Giao diện (activity_web.xml):
+   
+
+Click chuột phải vào thư mục res -> layout -> chọn New -> Layout Resource File.
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e64240e6-ecd6-425d-909c-ef97a71e1e90" />
+
+
+Ô File name gõ chữ: activity_web rồi ấn OK.
+
+
+Chuyển sang chế độ gõ Code, xóa hết đi và dán code vào:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/648acc7b-5ef0-45d8-aee5-baaeabd4a5e0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
