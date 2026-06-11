@@ -252,20 +252,79 @@ Chuyển sang chế độ gõ Code, xóa hết đi và dán code vào:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/648acc7b-5ef0-45d8-aee5-baaeabd4a5e0" />
 
 
+CÁC BƯỚC TẠO MÁY ẢO ĐỂ TEST APP TRÊN MÁY TÍNH
+
+
+Bước 1: Mở trình quản lý thiết bị (Device Manager)
+
+
+Nhìn lên thanh công cụ phía trên cùng bên phải của Android Studio.
+
+
+Tìm và click vào biểu tượng Device Manager (hình một chiếc điện thoại nhỏ có sọc dọc ở góc phải, hoặc bạn có thể vào menu Tools 
+
+Device Manager.
+
+<img width="709" height="469" alt="image" src="https://github.com/user-attachments/assets/815d5a78-2c81-4c9e-a4e0-393c5819f375" />
 
 
 
+Bước 2: Bắt đầu tạo mới
 
 
+Ở bảng Device Manager vừa hiện ra ở mép phải màn hình, bạn bấm vào nút Create device (hoặc biểu tượng dấu cộng +):
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73766f94-ebb2-4c2d-905c-c5193a8f9720" />
 
 
+Bước 3: Chọn dòng điện thoại mô phỏng
 
 
+Một cái bảng danh sách hiện ra, bạn chọn mục Phone ở cột trái.
 
 
+Ở cột giữa, bạn chọn một mẫu điện thoại phổ biến và nhẹ, ví dụ: Pixel 7 hoặc Pixel 6 (chú ý chọn cái nào có biểu tượng Play
+
+Store ở cột bên cạnh để dễ test webview nhé).
 
 
+Nhấn Next.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/56e55449-5257-4a27-ab9f-cddbe0b20ef2" />
+
+
+Bước 4: Chọn phiên bản hệ điều hành (System Image)
+
+
+Lúc này phần mềm sẽ hỏi muốn máy ảo chạy Android mấy. Nên chọn các bản ổn định như VanillaIceCream (API 35),
+
+UpsideDownCake (API 34) hoặc Tiramisu (API 33).
+
+
+Nếu bên cạnh tên phiên bản có một mũi tên xanh chỉ xuống (Download),  hãy click vào đó để máy tính tự tải gói Android đó về
+
+(quá trình tải mất khoảng 1-2 phút tùy mạng).
+
+
+Sau khi tải xong, chọn phiên bản đó và nhấn Next.
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9bce340f-f66e-4933-b122-2adbca0ed3cf" />
+
+
+Sau khi xong bấm chạy chương trình và bấm vào phần Running Devices sẽ thấy máy ảo và app vừa tạo hiện ra:
+
+<img width="1016" height="1037" alt="image" src="https://github.com/user-attachments/assets/fa943519-bc4a-44ec-8fb1-6afacbb48cfc" />
+
+KẾT QUẢ TEST: 
+
+Giair toán:
+
+<img width="773" height="1080" alt="image" src="https://github.com/user-attachments/assets/299b89fc-aad9-41d3-9e45-5d7c86ed6815" />
+
+Mở màn hình Website:
+
+<img width="781" height="1080" alt="image" src="https://github.com/user-attachments/assets/205d73a7-d233-4e99-ac8b-53026216fb1f" />
 
 
 
