@@ -138,9 +138,7 @@ BÀI 2: Viết app sử dụng Android Studio
 
 
 Vấn đề đặt ra: Các tài xế xe điện Xanh SM cần tra cứu nhanh các mốc tỷ lệ hoàn thành chuyến, chu kỳ xét hạng và chính sách
-
 thưởng phạt. Tuy nhiên, khi di chuyển ở các vùng sóng 4G yếu hoặc ngoại ô, việc mở app trực tuyến thường bị xoay vòng (loading)
-
 mất thời gian.
 
 Cách giải quyết: Đưa toàn bộ nội dung chính sách định dạng tĩnh vào app thông qua file Assets để tra cứu Offline 100%.
@@ -186,7 +184,7 @@ Nhấn Finish. Chờ khoảng 1-2 phút để thanh màu xanh dưới đáy màn
 
 BƯỚC 2: CÁCH TẠO THƯ MỤC ASSETS VÀ FILE JSON
 
-Đây là bước quan trọng nhất để nạp dữ liệu Offline. Bạn nhìn sang cột quản lý thư mục bên trái màn hình:
+Đây là bước quan trọng nhất để nạp dữ liệu Offline. Nhìn sang cột quản lý thư mục bên trái màn hình:
 
 
 Click chuột phải vào chữ app.
@@ -194,15 +192,16 @@ Click chuột phải vào chữ app.
 
 Trỏ chuột vào chữ New ➔ Kéo xuống dưới cùng chọn Folder ➔ Chọn Assets Folder.
 
+
 <img width="938" height="1080" alt="image" src="https://github.com/user-attachments/assets/72ab1bc7-7957-4660-9349-3b84028fe817" />
 
 
-Một bảng hiện ra, bạn cứ để nguyên mặc định và bấm Finish.
+Một bảng hiện ra, cứ để nguyên mặc định và bấm Finish.
 
 <img width="1416" height="1077" alt="image" src="https://github.com/user-attachments/assets/42a6acb8-ba82-4e94-83d1-d3b40a491fb7" />
 
 
-Lúc này bạn sẽ thấy một thư mục tên là assets màu vàng xuất hiện ngang hàng với thư mục java và res.
+Lúc này sẽ thấy một thư mục tên là assets màu vàng xuất hiện ngang hàng với thư mục java và res.
 
 
 <img width="310" height="287" alt="image" src="https://github.com/user-attachments/assets/fab4024c-d47c-478b-b4f5-b2903c9b2a0d" />
@@ -233,11 +232,7 @@ BƯỚC 3: CÁCH LÀM GIAO DIỆN MÀN HÌNH CHÍNH (activity_main.xml)
 Click đúp chuột để mở file activity_main.xml.
 
 
-Nhìn lên góc trên cùng bên phải của màn hình code, có 3 nút: Code | Split | Design. Bạn bấm chọn nút Code (hoặc biểu tượng có
-
-
-các đường kẻ ngang) để nó hiện ra toàn chữ:
-
+Nhìn lên góc trên cùng bên phải của màn hình code, có 3 nút: Code | Split | Design. Bấm chọn nút Code (hoặc biểu tượng có các đường kẻ ngang) để nó hiện ra toàn chữ:
 
 <img width="319" height="252" alt="image" src="https://github.com/user-attachments/assets/0dd5b37c-b057-479b-a516-bbb14b0668bb" />
 
@@ -272,7 +267,7 @@ Chọn New ➔ Chọn Layout Resource File.
 <img width="1061" height="994" alt="image" src="https://github.com/user-attachments/assets/470d5ebb-9edd-4b6b-bb79-a8ed2cfe7f42" />
 
 
-File mới mở ra, bạn lại bấm sang chế độ Code (ở góc phải trên cùng).
+File mới mở ra, lại bấm sang chế độ Code (ở góc phải trên cùng).
 
 
 Xóa sạch code tự sinh, copy đoạn code XML phần item_policy.xml rồi dán vào:
