@@ -17,7 +17,10 @@ Button: Nút bấm để thực hiện lệnh hoặc chuyển màn hình.
 TextBox / Image: Để nhập dữ liệu hoặc hiển thị hình ảnh (nếu bài yêu cầu).
 
 
-Đổi thuộc tính (Properties): Nhìn sang cột bên phải cùng để chỉnh lại kích thước chữ (FontSize), màu nền (BackgroundColor), và căn giữa màn hình 
+Đổi thuộc tính (Properties): Nhìn sang cột bên phải cùng để chỉnh lại kích thước chữ (FontSize), màu nền (BackgroundColor), và
+
+căn giữa màn hình 
+
 (AlignHorizontal chọn Center).
 
 
@@ -118,8 +121,7 @@ Bấm vào set lblKetQua. Text to kéo ra màn hình nối vào When btnCong.cli
 
 <img width="1156" height="951" alt="image" src="https://github.com/user-attachments/assets/8794ebdc-103b-4fce-9c92-d77632c17ac5" />
 
-
-PHẦN II: KẾT QỦA:
+ KẾT QỦA:
 
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/1887da61-8c28-436e-9b70-7d7f5491673e" />
 
@@ -129,6 +131,238 @@ PHẦN II: KẾT QỦA:
 
 
 BÀI 2: Viết app sử dụng Android Studio
+
+ỨNG DỤNG SỔ TAY OFFLINE (SỬ DỤNG ASSETS)
+
+BƯỚC 1: TẠO DỰ ÁN MỚI 
+
+Mở Android Studio, chọn File ➔ New ➔ New Project...
+
+
+Chọn mẫu Empty Views Activity (Tuyệt đối không chọn Empty Activity nhé). Nhấn Next.
+
+
+Ô Name gõ: App1_Assets
+
+
+Ô Language chọn: Java.
+
+
+Nhấn Finish. Chờ khoảng 1-2 phút để thanh màu xanh dưới đáy màn hình chạy xong hẳn (hiện chữ Daemon started successfully).
+
+
+<img width="1332" height="1067" alt="image" src="https://github.com/user-attachments/assets/56ada31d-64e4-43a0-a72e-f4eb3d3ee789" />
+
+BƯỚC 2: CÁCH TẠO THƯ MỤC ASSETS VÀ FILE JSON
+
+Đây là bước quan trọng nhất để nạp dữ liệu Offline. Bạn nhìn sang cột quản lý thư mục bên trái màn hình:
+
+
+Click chuột phải vào chữ app.
+
+
+Trỏ chuột vào chữ New ➔ Kéo xuống dưới cùng chọn Folder ➔ Chọn Assets Folder.
+
+<img width="938" height="1080" alt="image" src="https://github.com/user-attachments/assets/72ab1bc7-7957-4660-9349-3b84028fe817" />
+
+
+Một bảng hiện ra, bạn cứ để nguyên mặc định và bấm Finish.
+
+<img width="1416" height="1077" alt="image" src="https://github.com/user-attachments/assets/42a6acb8-ba82-4e94-83d1-d3b40a491fb7" />
+
+
+Lúc này bạn sẽ thấy một thư mục tên là assets màu vàng xuất hiện ngang hàng với thư mục java và res.
+
+
+<img width="310" height="287" alt="image" src="https://github.com/user-attachments/assets/fab4024c-d47c-478b-b4f5-b2903c9b2a0d" />
+
+
+Click chuột phải vào chính thư mục assets vừa tạo đó.
+
+Chọn New ➔ Chọn File.
+
+<img width="889" height="1045" alt="image" src="https://github.com/user-attachments/assets/5e758ee0-0b45-4180-a4a3-ee0fcd84c368" />
+
+
+Gõ tên file là: policy.json rồi nhấn Enter.
+
+
+File trắng sẽ mở ra, Copy đoạn dữ liệu JSON rồi dán vào:
+
+
+<img width="1920" height="833" alt="image" src="https://github.com/user-attachments/assets/3fcf9694-4092-4387-bc38-0b59931266a9" />
+
+
+BƯỚC 3: CÁCH LÀM GIAO DIỆN MÀN HÌNH CHÍNH (activity_main.xml)
+
+
+Ở cột bên trái, bạn mở theo đường dẫn: app ➔ res ➔ layout.
+
+
+Click đúp chuột để mở file activity_main.xml.
+
+
+Nhìn lên góc trên cùng bên phải của màn hình code, có 3 nút: Code | Split | Design. Bạn bấm chọn nút Code (hoặc biểu tượng có
+
+
+các đường kẻ ngang) để nó hiện ra toàn chữ:
+
+
+<img width="319" height="252" alt="image" src="https://github.com/user-attachments/assets/0dd5b37c-b057-479b-a516-bbb14b0668bb" />
+
+
+Nhấn Ctrl + A để bôi đen tất cả code cũ sinh sẵn, bấm nút Delete để xóa sạch đi.
+
+
+Copy đoạn code XML phần activity_main.xml rồi dán vào:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ea9d821-f254-44ab-9dc1-a16f795cc6e0" />
+
+
+BƯỚC 4: CÁCH TẠO GIAO DIỆN THẺ BÀI (item_policy.xml)
+
+Vì danh sách có nhiều mục, ta cần làm 1 cái khuôn (thẻ bài) để nhét dữ liệu vào.
+
+
+Click chuột phải vào thư mục layout (nằm trong res).
+
+
+Chọn New ➔ Chọn Layout Resource File.
+
+
+<img width="1077" height="1070" alt="image" src="https://github.com/user-attachments/assets/a7e266b8-07b5-4797-8334-b1fef173b031" />
+
+
+
+Ở ô File name đầu tiên, gõ chữ: item_policy (viết thường, dùng dấu gạch dưới). Nhấn OK.
+
+
+<img width="1061" height="994" alt="image" src="https://github.com/user-attachments/assets/470d5ebb-9edd-4b6b-bb79-a8ed2cfe7f42" />
+
+
+File mới mở ra, bạn lại bấm sang chế độ Code (ở góc phải trên cùng).
+
+
+Xóa sạch code tự sinh, copy đoạn code XML phần item_policy.xml rồi dán vào:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5f6a44f-6307-4323-84a9-87af2ada0a24" />
+
+
+BƯỚC 5: CÁCH DÁN CODE JAVA 
+
+
+Mở file theo đường dẫn: app ➔ java ➔ com.example.app1_assets ➔ MainActivity.java.
+
+
+
+<img width="428" height="496" alt="image" src="https://github.com/user-attachments/assets/e63d31b4-d409-4ef6-99db-6952747eb2fe" />
+
+
+
+Khi file mở ra, hãy nhìn vào Dòng số 1. Nó sẽ có dạng:
+
+
+package com.example.app1_assets;
+
+
+TUYỆT ĐỐI KHÔNG XÓA DÒNG NÀY.
+
+
+Dùng chuột bôi đen toàn bộ các chữ từ dòng số 2 trở xuống đến hết, rồi bấm Delete.
+
+
+Bây giờ, copy đoạn code Java (copy từ dòng số 3 trở đi - tức là bắt đầu copy từ chữ import
+
+android.os.Bundle; xuống tận cùng). Dán phần code vừa copy đó vào dưới dòng 1:
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cf016871-1ba7-404f-ab12-b1df42a69d3d" />
+
+
+BƯỚC 6: CHẠY THỬ 
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-11 120345" src="https://github.com/user-attachments/assets/b97ee5ee-d61d-4ddc-9018-cfec6010c320" />
+
+Sau khi chạy đã thấy app hiện ra 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BÀI 3: APP2 (android studio):  tạo app tương đương với Mit App inventor
 
 BƯỚC 1: KHỞI TẠO & CẤU HÌNH HỆ THỐNG 
 
